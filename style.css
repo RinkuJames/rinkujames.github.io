@@ -1,96 +1,95 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
 body {
-  line-height: 1.6;
-  background: #f5f7fa;
-  color: #333;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
 }
 
-header {
-  background: #111;
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  width: 320px;
+  background: #111827;
   color: white;
-  padding: 15px 30px;
+  padding: 30px;
   position: sticky;
   top: 0;
+  height: 100vh;
+  overflow-y: auto;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.profile-pic {
+  width: 140px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
+.sidebar h1 {
+  text-align: center;
+  margin-bottom: 5px;
 }
 
-nav a {
-  color: white;
+.title {
+  text-align: center;
+  color: #9ca3af;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #374151;
+  padding-bottom: 5px;
+}
+
+.section ul {
+  padding-left: 18px;
+}
+
+.section a {
+  color: #60a5fa;
   text-decoration: none;
 }
 
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  background: linear-gradient(135deg, #4f46e5, #06b6d4);
-  color: white;
+/* MAIN CONTENT */
+
+.content {
+  flex: 1;
+  padding: 40px;
 }
 
-.hero button {
-  margin-top: 20px;
-  padding: 12px 20px;
-  border: none;
-  background: white;
-  color: #333;
-  cursor: pointer;
-  border-radius: 6px;
-  font-weight: bold;
+.content h2 {
+  margin-bottom: 20px;
+  color: #111827;
 }
 
-section {
-  padding: 60px 20px;
-  max-width: 900px;
-  margin: auto;
-}
-
-.project-card {
+.card {
   background: white;
   padding: 20px;
-  margin: 15px 0;
+  margin-bottom: 18px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
 
-.project-card a {
-  margin-right: 15px;
+.card h3 {
+  margin-top: 0;
+}
+
+.card span {
+  color: gray;
+  font-size: 14px;
+}
+
+.card a {
   color: #4f46e5;
   text-decoration: none;
-}
-
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.skills-list li {
-  background: #4f46e5;
-  color: white;
-  padding: 8px 14px;
-  border-radius: 20px;
-  list-style: none;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #111;
-  color: white;
 }
