@@ -69,20 +69,20 @@ body {margin:0;font-family:Arial,sans-serif;background:#f4f6fb;}
 }
 .project-img {
   width: 100%;
-  height: 190px;                 /* consistent card height */
-  object-fit: contain;           /* 👈 shows FULL image (no cropping) */
-  background: linear-gradient(135deg, #eef2ff, #f8fafc);
-  padding: 12px;
+  height: 200px;              /* banner height */
+  object-fit: cover;          /* fills full width */
+  object-position: top;       /* 👈 keeps top text visible */
   border-radius: 12px;
   transition: transform 0.25s ease;
 }
+
 
 /* subtle zoom on hover */
 .project-card:hover .project-image{
   transform:scale(1.05);
 }
 .card:hover .project-img {
-  transform: scale(1.03);        /* subtle premium hover */
+  transform: scale(1.03);
 }
 
 /* Responsive */
