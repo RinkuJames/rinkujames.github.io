@@ -123,32 +123,31 @@ body {
   transform: translateY(-1px);
 }
 
-/* About Section Styling */
+/* About Section — Clean Professional Look */
 .about-section {
-  background: linear-gradient(135deg, #4f46e5, #6366f1);
-  color: white;
+  background: #ffffff;           /* white background */
+  border-left: 4px solid #4f46e5; /* blue accent on left */
   padding: 18px 20px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
   margin-bottom: 30px;
   line-height: 1.6;
-  position: relative;
-  overflow: hidden;
 }
 
 .about-section h2 {
-  border-bottom: 2px solid rgba(255,255,255,0.5);
-  display: inline-block;
-  padding-bottom: 6px;
-  margin-bottom: 12px;
+  color: #4f46e5;                /* blue accent for heading */
   font-size: 20px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e5e7eb; /* subtle divider */
+  display: inline-block;
+  padding-bottom: 4px;
 }
 
 .about-section p {
   font-size: 15px;
+  color: #111827;                /* dark text for readability */
   font-weight: 400;
 }
-
 /* Optional small decorative element */
 .about-section::before {
   content: "💡";
