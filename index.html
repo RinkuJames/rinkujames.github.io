@@ -4,33 +4,23 @@
   <meta charset="UTF-8">
   <title>Rinku Susanna James — Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
-
 <body>
 <div class="container">
 
   <!-- LEFT SIDEBAR -->
   <aside class="sidebar">
-
     <img src="ProfilePicture.jpeg" alt="Profile Photo" class="profile-pic">
-
     <h1>Rinku Susanna James</h1>
     <p class="title">Senior Data Engineer</p>
 
-    <!-- ABOUT -->
     <div class="section about-section">
       <h2>About</h2>
-      <p class="about-line">
-        <strong>Senior Data Engineer</strong> with <strong>9+ years</strong> of experience designing and optimizing scalable data solutions using <span class="highlight">Python, AWS, PySpark, SQL</span>.
-      </p>
-      <p class="about-line">
-        Expertise in <span class="highlight">ETL automation, cloud data platforms, big data processing</span> across automotive and telecommunications domains, with a proven track record of <strong>mentoring data engineering teams</strong>.
-      </p>
+      <p class="about-line"><strong>Senior Data Engineer</strong> with <strong>9+ years</strong> of experience designing and optimizing scalable data solutions using <span class="highlight">Python, AWS, PySpark, SQL</span>.</p>
+      <p class="about-line">Expertise in <span class="highlight">ETL automation, cloud data platforms, big data processing</span> across automotive and telecommunications domains, with a proven track record of <strong>mentoring data engineering teams</strong>.</p>
     </div>
 
-    <!-- SKILLS -->
     <div class="section skills-section">
       <h2>Skills</h2>
       <div class="skills-grid">
@@ -38,7 +28,7 @@
         <span class="skill"><i class="fab fa-java"></i> Java</span>
         <span class="skill"><i class="fas fa-code"></i> C#</span>
         <span class="skill"><i class="fas fa-database"></i> SQL</span>
-        <span class="skill"><i class="fab fa-aws"></i> AWS Cloud</span>
+        <span class="skill"><i class="fab fa-aws"></i> AWS</span>
         <span class="skill"><i class="fas fa-server"></i> Spark</span>
         <span class="skill"><i class="fas fa-stream"></i> Kafka</span>
         <span class="skill"><i class="fas fa-layer-group"></i> Data Warehousing</span>
@@ -47,41 +37,23 @@
       </div>
     </div>
 
-    <!-- CERTIFICATIONS -->
     <div class="section certifications-section">
       <h2>Certifications</h2>
       <div class="certifications-grid">
-        <div class="cert-card">
-          <h3>🎓 AWS Certified AI Practitioner</h3>
-          <p>(AIF-C01) — 2025</p>
-        </div>
-        <div class="cert-card">
-          <h3>🎓 AWS Solutions Architect – Associate</h3>
-          <p>(SAA-C03) — 2024</p>
-        </div>
-        <div class="cert-card">
-          <h3>🎓 AWS Cloud Practitioner</h3>
-          <p>(CLF-C02) — 2023</p>
-        </div>
+        <div class="cert-card"><h3>🎓 AWS Certified AI Practitioner</h3><p>(AIF-C01) — 2025</p></div>
+        <div class="cert-card"><h3>🎓 AWS Solutions Architect – Associate</h3><p>(SAA-C03) — 2024</p></div>
+        <div class="cert-card"><h3>🎓 AWS Cloud Practitioner</h3><p>(CLF-C02) — 2023</p></div>
       </div>
     </div>
 
-    <!-- AWARDS -->
     <div class="section awards-section">
       <h2>Awards</h2>
       <div class="awards-grid">
-        <div class="award-card">
-          <h3>🏆 Standing Ovation</h3>
-          <p>Nissan, 2023</p>
-        </div>
-        <div class="award-card">
-          <h3>🏆 Hackathon Winner</h3>
-          <p>Nissan, 2023</p>
-        </div>
+        <div class="award-card"><h3>🏆 Standing Ovation</h3><p>Nissan, 2023</p></div>
+        <div class="award-card"><h3>🏆 Hackathon Winner</h3><p>Nissan, 2023</p></div>
       </div>
     </div>
 
-    <!-- CONTACT -->
     <div class="section contact-section">
       <h2>Contact</h2>
       <p>📧 rinkujames12@email.com</p>
@@ -94,99 +66,104 @@
   <!-- RIGHT MAIN CONTENT -->
   <main class="content">
 
-    <!-- TOP ACTION BUTTONS -->
+    <!-- Top Buttons -->
     <div class="top-actions">
       <a href="https://www.linkedin.com/in/rinku-james-03241111a" target="_blank" class="btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
       <a href="https://github.com/RinkuJames" target="_blank" class="btn"><i class="fab fa-github"></i> GitHub</a>
-     
+      <a href="mailto:rinkujames12@email.com" class="btn"><i class="fas fa-envelope"></i> Email</a>
       <a href="Resume_Rinku_James.pdf" download class="btn"><i class="fas fa-file-download"></i> Resume</a>
     </div>
 
-    <!-- EXPERIENCE -->
-    <section>
-      <h2>Experience</h2>
+    <!-- TWO-COLUMN LAYOUT -->
+    <div class="right-columns">
 
-      <div class="card">
-        <h3>Senior Big Data Engineer — Nissan Digital India LLP</h3>
-        <span>May 2022 – Dec 2024</span>
-        <ul>
-          <li>Engineered scalable ETL pipelines using S3, Glue, EMR, PySpark, Snowflake/Redshift, and Airflow — improving data delivery efficiency by 35%.</li>
-          <li>Built AWS DMS CDC pipelines to ingest Oracle transactional data into S3 with near-real-time updates.</li>
-          <li>Implemented CI/CD framework for Talend using AWS and Bitbucket, automating deployments and reducing storage usage.</li>
-          <li>Developed cost-optimized AI/ML solutions using Bedrock, SageMaker, Textract, Comprehend, and Transcribe.</li>
-          <li>Mentored engineers, led code reviews, and participated in technical hiring.</li>
-        </ul>
-      </div>
+      <!-- EXPERIENCE -->
+      <div class="experience-column">
+        <h2>Experience</h2>
+        <div class="experience-scroll">
+          <div class="card">
+            <h3>Senior Big Data Engineer — Nissan Digital India LLP</h3>
+            <span>May 2022 – Dec 2024</span>
+            <ul>
+              <li>Engineered scalable ETL pipelines using S3, Glue, EMR, PySpark, Snowflake/Redshift, and Airflow — improving data delivery efficiency by 35%.</li>
+              <li>Built AWS DMS CDC pipelines to ingest Oracle transactional data into S3 with near-real-time updates.</li>
+              <li>Implemented CI/CD framework for Talend using AWS and Bitbucket.</li>
+              <li>Developed AI/ML solutions with SageMaker, Textract, Comprehend.</li>
+              <li>Mentored engineers, led code reviews, participated in hiring.</li>
+            </ul>
+          </div>
 
-      <div class="card">
-        <h3>Technology Analyst — Infosys Limited, India</h3>
-        <span>Jul 2020 – May 2022</span>
-        <ul>
-          <li>Designed ETL pipelines using AWS (S3, Lambda, Glue, Athena, CloudWatch) and Kafka for high-volume network telemetry.</li>
-          <li>Built Snowflake ingestion pipelines using Snowpipe, Parquet optimization, and Secure Data Sharing.</li>
-          <li>Improved reliability through automated logging, monitoring, and observability.</li>
-          <li>Developed ML-based ticket prediction system in Python, reducing resolution time by 28%.</li>
-        </ul>
-      </div>
+          <div class="card">
+            <h3>Technology Analyst — Infosys Limited, India</h3>
+            <span>Jul 2020 – May 2022</span>
+            <ul>
+              <li>Designed ETL pipelines with AWS (S3, Lambda, Glue, Athena) and Kafka.</li>
+              <li>Built Snowflake ingestion pipelines with Snowpipe and Parquet optimization.</li>
+              <li>Improved reliability through logging, monitoring, observability.</li>
+              <li>Developed ML-based ticket prediction system reducing resolution time by 28%.</li>
+            </ul>
+          </div>
 
-      <div class="card">
-        <h3>Software Developer — ZkTeco Security LLC, Dubai, U.A.E</h3>
-        <span>Aug 2016 – Apr 2019</span>
-        <ul>
-          <li>Developed a web-based ERP system using Django/Python integrated with SAP and third-party systems.</li>
-          <li>Improved operational efficiency through customized workflows.</li>
-          <li>Delivered software training for major clients including Dubai Police and Dubai Airport.</li>
-        </ul>
-      </div>
+          <div class="card">
+            <h3>Software Developer — ZkTeco Security LLC, Dubai, U.A.E</h3>
+            <span>Aug 2016 – Apr 2019</span>
+            <ul>
+              <li>Developed ERP system using Django/Python integrated with SAP and third-party systems.</li>
+              <li>Improved operational efficiency via workflows.</li>
+              <li>Delivered software training for Dubai Police and Dubai Airport.</li>
+            </ul>
+          </div>
 
-      <div class="card">
-        <h3>Software Engineer — IBS Software Services, India</h3>
-        <span>Oct 2013 – Dec 2015</span>
-        <ul>
-          <li>Built travel domain web applications using Java, Spring MVC, AngularJS, and Hibernate.</li>
-          <li>Enhanced system functionality supporting key business processes.</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section>
-      <h2>Projects</h2>
-
-      <div class="card">
-        <h3>Real-Time Data Pipeline</h3>
-        <p>Streaming pipeline using Kafka, Spark, and AWS.</p>
-        <div class="project-tags">
-          <span class="project-tag">Python</span>
-          <span class="project-tag">Spark</span>
-          <span class="project-tag">Kafka</span>
-          <span class="project-tag">AWS</span>
+          <div class="card">
+            <h3>Software Engineer — IBS Software Services, India</h3>
+            <span>Oct 2013 – Dec 2015</span>
+            <ul>
+              <li>Built travel domain web applications with Java, Spring MVC, AngularJS, Hibernate.</li>
+              <li>Enhanced system functionality supporting business processes.</li>
+            </ul>
+          </div>
         </div>
-        <a href="#">Live Demo</a> | <a href="#">Source Code</a>
       </div>
 
-      <div class="card">
-        <h3>AI Chat Application</h3>
-        <p>Conversational AI app using Python and cloud services.</p>
-        <div class="project-tags">
-          <span class="project-tag">Python</span>
-          <span class="project-tag">AWS</span>
-          <span class="project-tag">AI/ML</span>
+      <!-- PROJECTS -->
+      <div class="projects-column">
+        <h2>Projects</h2>
+        <div class="card">
+          <h3>Real-Time Data Pipeline</h3>
+          <p>Streaming pipeline using Kafka, Spark, and AWS.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Spark</span>
+            <span class="project-tag">Kafka</span>
+            <span class="project-tag">AWS</span>
+          </div>
+          <a href="#">Live Demo</a> | <a href="#">Source Code</a>
         </div>
-        <a href="#">Live Demo</a> | <a href="#">Source Code</a>
-      </div>
 
-      <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>Personal website hosted on GitHub Pages.</p>
-        <div class="project-tags">
-          <span class="project-tag">HTML</span>
-          <span class="project-tag">CSS</span>
-          <span class="project-tag">JS</span>
+        <div class="card">
+          <h3>AI Chat Application</h3>
+          <p>Conversational AI app using Python and cloud services.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">AWS</span>
+            <span class="project-tag">AI/ML</span>
+          </div>
+          <a href="#">Live Demo</a> | <a href="#">Source Code</a>
         </div>
-        <a href="#">View Site</a>
+
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p>Personal website hosted on GitHub Pages.</p>
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JS</span>
+          </div>
+          <a href="#">View Site</a>
+        </div>
+
       </div>
-    </section>
+    </div>
 
   </main>
 
