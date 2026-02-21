@@ -54,6 +54,25 @@ body {margin:0;font-family:Arial,sans-serif;background:#f4f6fb;}
 .project-tag{background:#e0e7ff;color:#1e40af;font-size:12px;font-weight:500;padding:4px 10px;border-radius:12px;}
 .project-tag:hover{background:#4f46e5;color:white;cursor:default;}
 
+/* PROJECT IMAGE */
+.project-card{
+  overflow:hidden;
+}
+
+.project-image{
+  width:100%;
+  height:170px;
+  object-fit:cover;
+  border-radius:10px;
+  margin-bottom:14px;
+  transition:transform 0.3s ease;
+}
+
+/* subtle zoom on hover */
+.project-card:hover .project-image{
+  transform:scale(1.05);
+}
+
 /* Responsive */
 @media (max-width:900px){
   .container{flex-direction:column;}
