@@ -210,13 +210,14 @@ body {
 }
 
 .cert-card {
-  background: #f0f4ff;
-  border-left: 4px solid #4f46e5;
+  background: #f0f4ff;        /* light background */
+  border-left: 4px solid #4f46e5; /* blue accent */
   padding: 12px 16px;
   border-radius: 10px;
   flex: 1 1 200px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
   transition: 0.2s;
+  color: #1e40af;             /* dark blue text for visibility */
 }
 
 .cert-card h3 {
@@ -228,11 +229,11 @@ body {
 .cert-card p {
   font-size: 13px;
   margin: 0;
-  color: #374151;
+  color: #374151;             /* dark gray text */
 }
 
 .cert-card:hover {
-  background: #4f46e5;
+  background: #4f46e5;        /* dark blue on hover */
   color: white;
   cursor: default;
 }
