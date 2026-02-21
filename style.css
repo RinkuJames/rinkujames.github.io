@@ -37,10 +37,27 @@ body {
   color: #111827;
 }
 
+/* Title under name */
 .title {
   text-align: center;
-  color: #6b7280;
+  color: #4f46e5;           /* blue accent */
+  font-size: 16px;          /* slightly bigger */
+  font-weight: 600;         /* semi-bold */
+  letter-spacing: 0.5px;    /* spacing between letters */
   margin-bottom: 30px;
+  text-transform: uppercase; /* small caps effect */
+  position: relative;
+}
+
+/* Optional: underline line under title */
+.title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #4f46e5;
+  margin: 6px auto 0 auto;
+  border-radius: 2px;
 }
 
 /* Section Styling */
